@@ -1,0 +1,11 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor state
+.vscode/
+.idea/
+
+# Common build/compile output — extend per task type
+*.class
+__pycache__/
