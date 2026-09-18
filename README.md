@@ -12,8 +12,11 @@
   3. State the learning goals explicitly — MiLLy anchors its skill analysis on
      them, so concrete goals produce better questions.
   4. Do NOT ship reference solutions — MiLLy builds its own internal reference.
-  5. Keep the "Test yourself with MiLLy" section and the rigging files:
-     MILLY.md, AGENTS.md, CLAUDE.md, .claude/commands/milly.md,
+  5. Edit POLICY.md to match your course's AI policy. It ships with the strict
+     default (hints and explanations only); assistants follow whatever it
+     says, and fall back to the strict default where it is silent.
+  6. Keep the "Test yourself with MiLLy" section and the rigging files:
+     MILLY.md, POLICY.md, AGENTS.md, CLAUDE.md, .claude/commands/milly.md,
      .github/agents/milly.md.
 
   Delete this comment block when the task is ready.
@@ -53,6 +56,6 @@ MiLLy works with whatever AI assistant you already use:
 
 - **VS Code / Codespaces with Copilot:** select the **MiLLy** agent in the Copilot Chat agent picker, or just ask: *"Run MiLLy on this task"*.
 - **CLI agents (Claude Code, Codex, Gemini CLI, …):** open the agent in this repository and say *"Run MiLLy"* (in Claude Code you can also type `/milly`).
-- **Web chat (ChatGPT, Claude, …):** paste the contents of [`MILLY.md`](MILLY.md) into the chat along with the task description and your work, then say *"Run MiLLy"*.
+- **Web chat (ChatGPT, Claude, …):** paste the contents of [`MILLY.md`](MILLY.md) and [`POLICY.md`](POLICY.md) into the chat along with the task description and your work, then say *"Run MiLLy"*.
 
-You can scope the quiz (*"Run MiLLy on exercise 2"*) or run it again for more practice (*"quiz me again"*) — the questions will vary each time. MiLLy is there to test your understanding, not to do the work for you — remember that you must be able to explain your own work.
+You can scope the quiz (*"Run MiLLy on exercise 2"*) or run it again for more practice (*"quiz me again"*) — the questions will vary each time. MiLLy is there to test your understanding, not to do the work for you. What help AI assistants may give with the task itself is set out in [`POLICY.md`](POLICY.md) — and whatever it allows, remember that you must be able to explain the work you submit.
