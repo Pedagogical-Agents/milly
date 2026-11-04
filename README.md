@@ -17,7 +17,8 @@
      says, and fall back to the strict default where it is silent.
   6. Keep the "Test yourself with MiLLy" section and the rigging files:
      MILLY.md, POLICY.md, AGENTS.md, CLAUDE.md, .claude/commands/milly.md,
-     .github/agents/milly.md.
+     .github/agents/milly.md. (CLAUDE.md only imports AGENTS.md, so edit
+     agent instructions in AGENTS.md.)
 
   Delete this comment block when the task is ready.
 -->
@@ -50,7 +51,7 @@
 
 ### 🤖 Test yourself with MiLLy
 
-Once you have completed the task, you can quiz yourself with **MiLLy**, our Mastery Learning Loop tutor. MiLLy analyses the skills in this task and then asks you questions about them — one at a time, with feedback — ending with a summary of which skills look solid and which could use more practice. It's a great rehearsal for explaining your own work.
+Once you have completed the task, you can quiz yourself with **MiLLy**, our Mastery Learning Loop tutor. MiLLy analyses the skills in this task and then asks you questions about them — one at a time, with feedback — ending with a summary of which skills look solid and which could use more practice. It's a great rehearsal for explaining your own work. It starts with a few quick warm-up questions, and at any point you can ask for more or less detail, skip a question, or switch language.
 
 MiLLy works with whatever AI assistant you already use:
 
