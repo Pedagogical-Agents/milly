@@ -51,7 +51,7 @@
 
 ### 🤖 Test yourself with MiLLy
 
-Once you have completed the task, you can quiz yourself with **MiLLy**, our Mastery Learning Loop tutor. MiLLy analyses the skills in this task and then asks you questions about them — one at a time, with feedback — ending with a summary of which skills look solid and which could use more practice. It's a great rehearsal for explaining your own work. It starts with a few quick warm-up questions, and at any point you can ask for more or less detail, skip a question, or switch language.
+Once you have completed the task, you can quiz yourself with **MiLLy**, our Mastery Learning Loop tutor. MiLLy analyses the skills in this task and then asks you questions about them — one at a time, with honest feedback (it will tell you plainly when an answer is wrong or incomplete, and give you a hint and another try) — ending with a summary of which skills look solid and which could use more practice. It's a great rehearsal for explaining your own work. It starts with a few quick warm-up questions, and at any point you can ask for more or less detail, skip a question, or switch language.
 
 MiLLy works with whatever AI assistant you already use:
 
